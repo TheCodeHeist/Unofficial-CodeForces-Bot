@@ -1,0 +1,25 @@
+{
+  "name": "unofficial-codeforces-bot",
+  "version": "1.0.0",
+  "description": "Unofficial CodeForces Discord Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCodeHeist/Unofficial-CodeForces-Bot.git"
+  },
+  "author": "Riyasat Hossain (TheCodeHeist)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheCodeHeist/Unofficial-CodeForces-Bot/issues"
+  },
+  "homepage": "https://github.com/TheCodeHeist/Unofficial-CodeForces-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "firebase": "^8.2.5",
+    "node-fetch": "^2.6.1"
+  }
+}
