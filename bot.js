@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
 const cfcontests = require("./commands/cfcontests");
-const { token, prefix, guild_id, ping_channel_id } = require("./config.json");
+const { prefix, guild_id, ping_channel_id } = require("./config.json");
 
 const bot = new Discord.Client();
 
