@@ -9,7 +9,7 @@ const bot = new Discord.Client();
 
 bot.on("ready", () => {
   console.log("Moi Redi!!");
-  console.log(bot.guilds.cache)
+  console.log(bot.users.cache)
 
   statusroller(bot, prefix);
 });
