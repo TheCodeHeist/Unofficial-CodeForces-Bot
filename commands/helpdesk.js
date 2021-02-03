@@ -10,8 +10,8 @@ module.exports = (discord, msg) => {
     )
     .addFields({
       name: `-----------------------
-  |    General Helps    |
-  -----------------------`,
+|    General Helps    |
+-----------------------`,
       value: `**Prefix:** ${prefix}\n
                   **Help Desk:** ${prefix}help\n
                   **Contest Viewer:** ${prefix}contests\n
