@@ -19,5 +19,6 @@ module.exports = (discord, msg) => {
     })
     .setTimestamp()
     .setFooter("**It's Under-development. Please wait for more!**");
-  msg.member.send(help_embed);
+  // msg.member.send(help_embed);
+  msg.channel.send(help_embed);
 };
