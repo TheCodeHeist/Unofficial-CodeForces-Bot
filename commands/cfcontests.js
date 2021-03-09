@@ -9,12 +9,16 @@ module.exports = (message, args, fetch) => {
     .then((data) => {
       // console.log(data);
 
-      var count = 0;
+      let count = 0;
 
       data.forEach((x) => {
         count++;
 
-        const datas = "**" + count + ".** " + x.name;
+        const datas = `**${count}:**
+**Name:** ${x.name}
+**Registration URL:** ${x.url}
+**Name:** ${x.name}
+`;
 
         message.channel.send(datas);
       });

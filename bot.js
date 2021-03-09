@@ -4,6 +4,7 @@ const cfcontests = require("./commands/cfcontests");
 const statusroller = require("./commands/statusroller");
 const helpdesk = require("./commands/helpdesk");
 const { prefix, guild_id, ping_channel_id } = require("./config.json");
+const { token } = require("./bot_secrets.json");
 
 const bot = new Discord.Client();
 
@@ -27,4 +28,4 @@ bot.on("message", (message) => {
   }
 });
 
-bot.login(process.env.token);
+bot.login(process.env.token || token);
