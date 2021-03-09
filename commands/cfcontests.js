@@ -10,9 +10,11 @@ module.exports = (message, args, fetch) => {
       // console.log(data);
 
       let count = 0;
+      let x = 0;
 
       for(let i = 0; i <= data.length; i++ ){
         count++;
+        x++;
 
         const datas = `**${count}:**
 **Name:** ${x.name}
@@ -21,6 +23,7 @@ module.exports = (message, args, fetch) => {
 `;
 
         message.channel.send(datas);
+
       };
     });
 };
