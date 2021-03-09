@@ -28,4 +28,8 @@ bot.on("message", (message) => {
   }
 });
 
-bot.login(process.env.token || token);
+if (!token) {
+  bot.login(process.env.token);
+} else {
+  bot.login(token);
+}
