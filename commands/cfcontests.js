@@ -19,7 +19,6 @@ module.exports = (message, args, fetch) => {
         const datas = `**${count}:**
 **Name:** ${x.name}
 **Registration URL:** ${x.url}
-**Name:** ${x.name}
 `;
 
         message.channel.send(datas);
